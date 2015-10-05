@@ -13,6 +13,7 @@
 		D696134D1BC2F36600AB7CB7 /* DMFundraiseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D696134C1BC2F36600AB7CB7 /* DMFundraiseViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		D696134F1BC2F3CB00AB7CB7 /* DMAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D696134E1BC2F3CB00AB7CB7 /* DMAboutViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		D69613511BC2F48E00AB7CB7 /* DMEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69613501BC2F48E00AB7CB7 /* DMEventsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		D69613531BC2FB7000AB7CB7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D69613521BC2FB7000AB7CB7 /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
 		D6D7DF281BBB089100D0736A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D7DF271BBB089100D0736A /* AppDelegate.swift */; };
 		D6D7DF2D1BBB089100D0736A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D7DF2B1BBB089100D0736A /* Main.storyboard */; };
 		D6D7DF2F1BBB089100D0736A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D7DF2E1BBB089100D0736A /* Assets.xcassets */; };
@@ -50,6 +51,7 @@
 		D696134C1BC2F36600AB7CB7 /* DMFundraiseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMFundraiseViewController.swift; sourceTree = "<group>"; };
 		D696134E1BC2F3CB00AB7CB7 /* DMAboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMAboutViewController.swift; sourceTree = "<group>"; };
 		D69613501BC2F48E00AB7CB7 /* DMEventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMEventsViewController.swift; sourceTree = "<group>"; };
+		D69613521BC2FB7000AB7CB7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D6D7DF241BBB089100D0736A /* SlideOutTest2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideOutTest2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D7DF271BBB089100D0736A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6D7DF2C1BBB089100D0736A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -94,6 +96,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D69613541BC2FB8700AB7CB7 /* Main View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D6D7DF5B1BBB0D7100D0736A /* DMHomeViewController.swift */,
+				D696134A1BC2F26A00AB7CB7 /* DMMeetTheKidsViewController.swift */,
+				D696134C1BC2F36600AB7CB7 /* DMFundraiseViewController.swift */,
+				D696134E1BC2F3CB00AB7CB7 /* DMAboutViewController.swift */,
+				D69613501BC2F48E00AB7CB7 /* DMEventsViewController.swift */,
+				D610A0C11BBB35B3007E898B /* DMMapViewController.swift */,
+				D69613481BC2EF1100AB7CB7 /* DMGameViewController.swift */,
+			);
+			name = "Main View Controllers";
+			sourceTree = "<group>";
+		};
+		D69613551BC2FBAA00AB7CB7 /* Slide Out Panel Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D69613541BC2FB8700AB7CB7 /* Main View Controllers */,
+				D6D7DF571BBB0C2500D0736A /* DMMainViewController.swift */,
+				D6D7DF5D1BBB157C00D0736A /* DMSidePanelTableViewController.swift */,
+				D6D7DF591BBB0C4500D0736A /* DMContainerViewController.swift */,
+			);
+			name = "Slide Out Panel Controllers";
+			sourceTree = "<group>";
+		};
+		D69613561BC2FBD900AB7CB7 /* Custom Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D6D7DF5F1BBB15A800D0736A /* DMSidePanelTableViewCell.swift */,
+			);
+			name = "Custom Table View Cells";
+			sourceTree = "<group>";
+		};
 		D6D7DF1B1BBB089100D0736A = {
 			isa = PBXGroup;
 			children = (
@@ -117,19 +152,11 @@
 		D6D7DF261BBB089100D0736A /* SlideOutTest2 */ = {
 			isa = PBXGroup;
 			children = (
-				D6D7DF571BBB0C2500D0736A /* DMMainViewController.swift */,
 				D6D7DF271BBB089100D0736A /* AppDelegate.swift */,
 				D6D7DF2B1BBB089100D0736A /* Main.storyboard */,
-				D696134A1BC2F26A00AB7CB7 /* DMMeetTheKidsViewController.swift */,
-				D696134C1BC2F36600AB7CB7 /* DMFundraiseViewController.swift */,
-				D696134E1BC2F3CB00AB7CB7 /* DMAboutViewController.swift */,
-				D69613501BC2F48E00AB7CB7 /* DMEventsViewController.swift */,
-				D610A0C11BBB35B3007E898B /* DMMapViewController.swift */,
-				D69613481BC2EF1100AB7CB7 /* DMGameViewController.swift */,
-				D6D7DF5F1BBB15A800D0736A /* DMSidePanelTableViewCell.swift */,
-				D6D7DF5D1BBB157C00D0736A /* DMSidePanelTableViewController.swift */,
-				D6D7DF5B1BBB0D7100D0736A /* DMHomeViewController.swift */,
-				D6D7DF591BBB0C4500D0736A /* DMContainerViewController.swift */,
+				D69613551BC2FBAA00AB7CB7 /* Slide Out Panel Controllers */,
+				D69613561BC2FBD900AB7CB7 /* Custom Table View Cells */,
+				D69613521BC2FB7000AB7CB7 /* Images.xcassets */,
 				D6D7DF2E1BBB089100D0736A /* Assets.xcassets */,
 				D6D7DF301BBB089100D0736A /* LaunchScreen.storyboard */,
 				D6D7DF331BBB089100D0736A /* Info.plist */,
@@ -262,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6D7DF321BBB089100D0736A /* LaunchScreen.storyboard in Resources */,
+				D69613531BC2FB7000AB7CB7 /* Images.xcassets in Resources */,
 				D6D7DF2F1BBB089100D0736A /* Assets.xcassets in Resources */,
 				D6D7DF2D1BBB089100D0736A /* Main.storyboard in Resources */,
 			);
