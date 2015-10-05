@@ -157,7 +157,8 @@ class DMContainerViewController: UIViewController, DMMainDelegate, DMPanelDelega
             // controller the main controller is embedded in.  Target position is accordint to the
             // constants
             animateCenterPanelXPosition(targetPosition:
-                CGRectGetWidth(currentMainNavigationController.view.frame) - (panelExpandedOffsetPercent * currentMainNavigationController.view.frame.width))
+                CGRectGetWidth(currentMainNavigationController.view.frame) -
+                    (panelExpandedOffsetPercent * currentMainNavigationController.view.frame.width))
         } else {
             // Same as with expansion, but targer position is now 0 (left of plane)
             animateCenterPanelXPosition(targetPosition: 0) {
@@ -201,7 +202,8 @@ extension UIStoryboard {
     }
     
     // Function to get the main view controller from the UIStoryboard class
-    class func viewControllerForOption(selectedOption: DMMainViewControllerOption) -> DMMainViewController {
+    class func viewControllerForOption(selectedOption: DMMainViewControllerOption)
+        -> DMMainViewController {
         return mainStoryboard()
             .instantiateViewControllerWithIdentifier(selectedOption.controllerName)
             as! DMMainViewController
